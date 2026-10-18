@@ -1,10 +1,3 @@
-Next Steps:
-1. Clean up the UX/UI design: color-coding the different types. 
-2. Security: upgrading different dependencies and implementing account creation and MFA. 
-3. Figuring out a way to include data for games Gens 4-9. 
-4. Adding in pngs of the different Pokemon in each of their slots. 
-
-
 # PokéDash
 
 Record the teams you used in your Pokémon playthroughs and explore them on a dashboard: total playthroughs, most-played generation, most common types, and most-used Pokémon.
@@ -166,3 +159,10 @@ Update Docker Desktop, or make sure it is running.
 - Alternate forms (Mega evolutions, regional variants) are stored as separate Pokémon, matching PokéAPI.
 - Dual-type Pokémon count toward both of their types in the "most common types" chart.
 - Never commit `.env`. It is listed in `.gitignore`.
+
+## Next Steps
+
+1. Clean up the UX/UI design.
+2. Figuring out a way to include data for games Gens 4-9. 
+3. Adding constraints so that you can only add Pokemon to a slot if they're in that game(e.g., Scizor can only be selected in FireRed and Not LeafGreen).
+
