@@ -162,7 +162,8 @@ Update Docker Desktop, or make sure it is running.
 
 ## Next Steps
 
-1. Clean up the UX/UI design.
-2. Figuring out a way to include data for games Gens 4-9. 
-3. Adding constraints so that you can only add Pokemon to a slot if they're in that game(e.g., Scizor can only be selected in FireRed and Not LeafGreen).
+1. Security fixes: HTTPS, Login with OTP or 2fa code with an auth app. 
+2. Clean up the UX/UI design so it's easier to navigate and more aesthetically pleasing. 
+3. Figuring out a way to include data for games Gens 4-9. 
+4. Adding constraints so that you can only add Pokemon to a slot if they're in that game(e.g., Scizor can only be selected in FireRed and Not LeafGreen).
 
